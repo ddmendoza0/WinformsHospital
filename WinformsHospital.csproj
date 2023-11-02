@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Formularios\FormListaPacientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FormListaPacientes.Designer.cs">
+      <DependentUpon>FormListaPacientes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\FormTotalPersonas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,6 +94,9 @@
     <Compile Include="Modelos\Persona.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Formularios\FormListaPacientes.resx">
+      <DependentUpon>FormListaPacientes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\FormTotalPersonas.resx">
       <DependentUpon>FormTotalPersonas.cs</DependentUpon>
     </EmbeddedResource>

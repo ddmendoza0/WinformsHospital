@@ -86,7 +86,7 @@
             this.Controls.Add(this.lstPersonas);
             this.Controls.Add(this.labCabeceraAltaMed);
             this.Name = "FormTotalPersonas";
-            this.Text = "Herramienta gestion hospital: Listado de personas";
+            this.Text = "Herramienta gestion hospital: Personas";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -132,6 +132,7 @@
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(187, 22);
             this.dateTimePicker1.TabIndex = 16;
+            this.dateTimePicker1.Value = new System.DateTime(2023, 11, 2, 18, 40, 8, 0);
             // 
             // labDateAlta
             // 
@@ -160,7 +161,7 @@
             this.Controls.Add(this.butAceptar);
             this.Controls.Add(this.labCabeceraAltaPaciente);
             this.Name = "FormDarAlta";
-            this.Text = "Herramienta gestion hospital: Alta paciente";
+            this.Text = "Herramienta gestion hospital: Pacientes";
             this.ResumeLayout(false);
             this.PerformLayout();
 

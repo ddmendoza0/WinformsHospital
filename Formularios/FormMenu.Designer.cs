@@ -72,7 +72,7 @@
             this.butAltaMedic.Name = "butAltaMedic";
             this.butAltaMedic.Size = new System.Drawing.Size(191, 26);
             this.butAltaMedic.TabIndex = 2;
-            this.butAltaMedic.Text = "Admision";
+            this.butAltaMedic.Text = "Admisión";
             this.butAltaMedic.UseVisualStyleBackColor = false;
             this.butAltaMedic.Click += new System.EventHandler(this.OnClickAltaMedico);
             // 
@@ -83,7 +83,7 @@
             this.butAltaPaciente.Name = "butAltaPaciente";
             this.butAltaPaciente.Size = new System.Drawing.Size(191, 23);
             this.butAltaPaciente.TabIndex = 3;
-            this.butAltaPaciente.Text = "Admitision";
+            this.butAltaPaciente.Text = "Admitisión";
             this.butAltaPaciente.UseVisualStyleBackColor = false;
             this.butAltaPaciente.Click += new System.EventHandler(this.butAltaPaciente_Click);
             // 

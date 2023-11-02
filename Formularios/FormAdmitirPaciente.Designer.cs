@@ -103,7 +103,7 @@
             this.cmbMedicos.Size = new System.Drawing.Size(174, 24);
             this.cmbMedicos.TabIndex = 9;
             // 
-            // FormAltaPaciente
+            // FormAdmitirPaciente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -117,8 +117,8 @@
             this.Controls.Add(this.labNombre);
             this.Controls.Add(this.labCabeceraAltaPaciente);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.Name = "FormAltaPaciente";
-            this.Text = "Herramienta gestion hospital: Admitir paciente";
+            this.Name = "FormAdmitirPaciente";
+            this.Text = "Herramienta gestion hospital: Pacientes";
             this.ResumeLayout(false);
             this.PerformLayout();
 

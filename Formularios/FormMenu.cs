@@ -69,7 +69,8 @@ namespace WinformsHospital
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            FormListaPacientes nuevoFormPersonas = new FormListaPacientes(this);
+            nuevoFormPersonas.Show();
         }
     }
 }

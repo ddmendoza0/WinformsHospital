@@ -123,7 +123,7 @@
             this.Controls.Add(this.labCabeceraAltaMed);
             this.Controls.Add(this.labNomMed);
             this.Name = "FormAltaMedico";
-            this.Text = "Herramienta gestion hospital: Alta medico";
+            this.Text = "Herramienta gestion hospital: Medicos";
             this.ResumeLayout(false);
             this.PerformLayout();
 

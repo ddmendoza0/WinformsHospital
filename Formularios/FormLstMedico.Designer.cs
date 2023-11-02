@@ -109,7 +109,7 @@
             this.Controls.Add(this.lstMedicos);
             this.Controls.Add(this.labCabeceraLstMedic);
             this.Name = "FormLstMedico";
-            this.Text = "Herramienta gestion hospital: Listado de medicos";
+            this.Text = "Herramienta gestion hospital: Medicos";
             this.ResumeLayout(false);
             this.PerformLayout();
 
