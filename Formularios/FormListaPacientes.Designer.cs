@@ -57,6 +57,7 @@
             this.lstPacientes.Location = new System.Drawing.Point(4, 73);
             this.lstPacientes.Name = "lstPacientes";
             this.lstPacientes.Size = new System.Drawing.Size(296, 164);
+            this.lstPacientes.Sorted = true;
             this.lstPacientes.TabIndex = 4;
             this.lstPacientes.SelectedValueChanged += new System.EventHandler(this.lstPacientes_SelectedValueChanged);
             // 

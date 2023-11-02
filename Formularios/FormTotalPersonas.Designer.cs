@@ -54,6 +54,7 @@
             this.lstPersonas.Location = new System.Drawing.Point(15, 76);
             this.lstPersonas.Name = "lstPersonas";
             this.lstPersonas.Size = new System.Drawing.Size(608, 244);
+            this.lstPersonas.Sorted = true;
             this.lstPersonas.TabIndex = 4;
             // 
             // butCancelar

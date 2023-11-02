@@ -101,6 +101,7 @@
             this.cmbMedicos.Location = new System.Drawing.Point(15, 150);
             this.cmbMedicos.Name = "cmbMedicos";
             this.cmbMedicos.Size = new System.Drawing.Size(174, 24);
+            this.cmbMedicos.Sorted = true;
             this.cmbMedicos.TabIndex = 9;
             // 
             // FormAdmitirPaciente

@@ -79,14 +79,15 @@
             // 
             this.cmbEspecialidad.FormattingEnabled = true;
             this.cmbEspecialidad.Items.AddRange(new object[] {
+            "Astrologia",
             "Cardiologia",
             "Geriatria",
             "Neurologia",
-            "Reflexologia",
-            "Astrologia"});
+            "Reflexologia"});
             this.cmbEspecialidad.Location = new System.Drawing.Point(18, 147);
             this.cmbEspecialidad.Name = "cmbEspecialidad";
             this.cmbEspecialidad.Size = new System.Drawing.Size(222, 24);
+            this.cmbEspecialidad.Sorted = true;
             this.cmbEspecialidad.TabIndex = 4;
             // 
             // butAceptar
