@@ -28,10 +28,7 @@ namespace WinformsHospital.Formularios
             {
                 AnadirPaciente();//Llamamos a la funcion para añadir el paciente
                 MessageBox.Show("Operación realizada con exito");
-
-                //Volvemos al estado por defecto
-                cmbMedicos.SelectedItem = null;
-                txtNombre.Text = "";
+                this.Close();
             }
             else
                 MessageBox.Show("Debe rellenar los campos para admitir un paciente");

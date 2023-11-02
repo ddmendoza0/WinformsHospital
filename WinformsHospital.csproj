@@ -46,10 +46,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FormTotalPersonas.cs">
+    <Compile Include="Formularios\FormTotalPersonas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormTotalPersonas.Designer.cs">
+    <Compile Include="Formularios\FormTotalPersonas.Designer.cs">
       <DependentUpon>FormTotalPersonas.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\FormDarAlta.cs">
@@ -88,7 +88,7 @@
     <Compile Include="Modelos\Persona.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FormTotalPersonas.resx">
+    <EmbeddedResource Include="Formularios\FormTotalPersonas.resx">
       <DependentUpon>FormTotalPersonas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\FormDarAlta.resx">

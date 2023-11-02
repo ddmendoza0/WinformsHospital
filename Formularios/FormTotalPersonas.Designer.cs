@@ -29,10 +29,7 @@
         private void InitializeComponent()
         {
             this.labCabeceraAltaMed = new System.Windows.Forms.Label();
-            this.labMed = new System.Windows.Forms.Label();
-            this.lstMedicos = new System.Windows.Forms.ListBox();
-            this.lstPacientes = new System.Windows.Forms.ListBox();
-            this.labPacientes = new System.Windows.Forms.Label();
+            this.lstPersonas = new System.Windows.Forms.ListBox();
             this.butCancelar = new System.Windows.Forms.Button();
             this.labTotal = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -50,41 +47,14 @@
             this.labCabeceraAltaMed.Text = "Total de personas en el hospital";
             this.labCabeceraAltaMed.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // labMed
+            // lstPersonas
             // 
-            this.labMed.AutoSize = true;
-            this.labMed.Location = new System.Drawing.Point(9, 68);
-            this.labMed.Name = "labMed";
-            this.labMed.Size = new System.Drawing.Size(59, 16);
-            this.labMed.TabIndex = 3;
-            this.labMed.Text = "Medicos";
-            // 
-            // lstMedicos
-            // 
-            this.lstMedicos.FormattingEnabled = true;
-            this.lstMedicos.ItemHeight = 16;
-            this.lstMedicos.Location = new System.Drawing.Point(12, 87);
-            this.lstMedicos.Name = "lstMedicos";
-            this.lstMedicos.Size = new System.Drawing.Size(258, 196);
-            this.lstMedicos.TabIndex = 4;
-            // 
-            // lstPacientes
-            // 
-            this.lstPacientes.FormattingEnabled = true;
-            this.lstPacientes.ItemHeight = 16;
-            this.lstPacientes.Location = new System.Drawing.Point(341, 87);
-            this.lstPacientes.Name = "lstPacientes";
-            this.lstPacientes.Size = new System.Drawing.Size(247, 196);
-            this.lstPacientes.TabIndex = 5;
-            // 
-            // labPacientes
-            // 
-            this.labPacientes.AutoSize = true;
-            this.labPacientes.Location = new System.Drawing.Point(338, 68);
-            this.labPacientes.Name = "labPacientes";
-            this.labPacientes.Size = new System.Drawing.Size(67, 16);
-            this.labPacientes.TabIndex = 6;
-            this.labPacientes.Text = "Pacientes";
+            this.lstPersonas.FormattingEnabled = true;
+            this.lstPersonas.ItemHeight = 16;
+            this.lstPersonas.Location = new System.Drawing.Point(15, 76);
+            this.lstPersonas.Name = "lstPersonas";
+            this.lstPersonas.Size = new System.Drawing.Size(608, 244);
+            this.lstPersonas.TabIndex = 4;
             // 
             // butCancelar
             // 
@@ -99,7 +69,7 @@
             // labTotal
             // 
             this.labTotal.AutoSize = true;
-            this.labTotal.Location = new System.Drawing.Point(13, 312);
+            this.labTotal.Location = new System.Drawing.Point(12, 57);
             this.labTotal.Name = "labTotal";
             this.labTotal.Size = new System.Drawing.Size(120, 16);
             this.labTotal.TabIndex = 8;
@@ -113,10 +83,7 @@
             this.ClientSize = new System.Drawing.Size(632, 403);
             this.Controls.Add(this.labTotal);
             this.Controls.Add(this.butCancelar);
-            this.Controls.Add(this.labPacientes);
-            this.Controls.Add(this.lstPacientes);
-            this.Controls.Add(this.lstMedicos);
-            this.Controls.Add(this.labMed);
+            this.Controls.Add(this.lstPersonas);
             this.Controls.Add(this.labCabeceraAltaMed);
             this.Name = "FormTotalPersonas";
             this.Text = "Herramienta gestion hospital: Listado de personas";
@@ -128,10 +95,7 @@
         #endregion
 
         private System.Windows.Forms.Label labCabeceraAltaMed;
-        private System.Windows.Forms.Label labMed;
-        private System.Windows.Forms.ListBox lstMedicos;
-        private System.Windows.Forms.ListBox lstPacientes;
-        private System.Windows.Forms.Label labPacientes;
+        private System.Windows.Forms.ListBox lstPersonas;
         private System.Windows.Forms.Button butCancelar;
         private System.Windows.Forms.Label labTotal;
     }

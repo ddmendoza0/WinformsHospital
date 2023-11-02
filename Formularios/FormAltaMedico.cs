@@ -33,10 +33,7 @@ namespace WinformsHospital.Formularios
             {
                 AdmitirMedico();
                 MessageBox.Show("Operación realizada con exito");
-
-                //Volvemos a empezar
-                cmbEspecialidad.SelectedValue = null;
-                txtNomMedic.Text = "";
+                this.Close();
             }
             else
                 MessageBox.Show("Debe rellenar los campos para admitir un medico");

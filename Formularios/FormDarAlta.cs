@@ -28,6 +28,7 @@ namespace WinformsHospital
                 EliminarPaciente();//Lamamos para que elimine al paciente de la lista
                 MostrarListaPacientes();//Asi nos actualiza la lista
                 MessageBox.Show("Operación realizada con exito");
+                this.Close();
             }
             else
                 MessageBox.Show("Debe seleccionar un paciente");

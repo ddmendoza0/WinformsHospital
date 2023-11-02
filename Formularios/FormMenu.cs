@@ -24,6 +24,11 @@ namespace WinformsHospital
             hospital.Medicos.Add(new Medico(101, "El que no debe ser nombrado", "Neurologia"));
             hospital.Medicos.Add(new Medico(102, "Frodo Bolson", "Generalista"));
 
+            //Añadimos pacientes
+            hospital.Medicos[1].Pacientes.Add(new Paciente(500, "Enfermito A"));
+            hospital.Medicos[1].Pacientes.Add(new Paciente(501, "Enfermito B"));
+            hospital.Medicos[2].Pacientes.Add(new Paciente(502, "Enfermito C"));
+
             InitializeComponent();
         }
 
@@ -60,6 +65,11 @@ namespace WinformsHospital
         {
             FormTotalPersonas nuevoFormTotal = new FormTotalPersonas(this);
             nuevoFormTotal.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

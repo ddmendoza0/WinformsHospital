@@ -18,8 +18,7 @@ namespace WinformsHospital
         {
             infoForm = menuPrincipal;
             InitializeComponent();
-            MostrarListaMedicos();
-            MostrarListaPacientes();
+            MostrarListaPersonas();
             PersonasTotales();
             
         }
@@ -29,22 +28,16 @@ namespace WinformsHospital
             this.Close();
         }
 
-        private void MostrarListaMedicos()
+        private void MostrarListaPersonas()
         {
-            lstMedicos.Items.Clear();
+            lstPersonas.Items.Clear();
             foreach (Medico med in infoForm.hospital.Medicos)
-            {
-                lstMedicos.Items.Add(med.Nombre);
-            }
-        }
-
-        private void MostrarListaPacientes()
-        {
-            lstPacientes.Items.Clear();
+                lstPersonas.Items.Add($"Medico {med.Id}, " + med.Nombre);
+            
             foreach (Medico med in infoForm.hospital.Medicos)
             {
                 foreach (Paciente pac in med.Pacientes)
-                    lstPacientes.Items.Add(pac.Nombre);
+                    lstPersonas.Items.Add($"Paciente {pac.Id}, " + pac.Nombre);
             }
         }
 
