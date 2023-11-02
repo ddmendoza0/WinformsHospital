@@ -48,6 +48,7 @@
             // 
             // labCabeceraAltaMed
             // 
+            this.labCabeceraAltaMed.BackColor = System.Drawing.SystemColors.Highlight;
             this.labCabeceraAltaMed.Dock = System.Windows.Forms.DockStyle.Top;
             this.labCabeceraAltaMed.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labCabeceraAltaMed.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -104,7 +105,7 @@
             this.butCancelar.Name = "butCancelar";
             this.butCancelar.Size = new System.Drawing.Size(156, 38);
             this.butCancelar.TabIndex = 6;
-            this.butCancelar.Text = "Cancelar";
+            this.butCancelar.Text = "Cerrar";
             this.butCancelar.UseVisualStyleBackColor = true;
             this.butCancelar.Click += new System.EventHandler(this.butCancelar_Click);
             // 

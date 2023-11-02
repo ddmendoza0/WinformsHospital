@@ -38,6 +38,7 @@
             // 
             // labCabeceraLstMedic
             // 
+            this.labCabeceraLstMedic.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.labCabeceraLstMedic.Dock = System.Windows.Forms.DockStyle.Top;
             this.labCabeceraLstMedic.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labCabeceraLstMedic.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;

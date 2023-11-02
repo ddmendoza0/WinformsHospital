@@ -39,6 +39,7 @@
             // 
             // labCabeceraAltaPaciente
             // 
+            this.labCabeceraAltaPaciente.BackColor = System.Drawing.SystemColors.Highlight;
             this.labCabeceraAltaPaciente.Dock = System.Windows.Forms.DockStyle.Top;
             this.labCabeceraAltaPaciente.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labCabeceraAltaPaciente.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
