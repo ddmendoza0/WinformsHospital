@@ -44,7 +44,7 @@
             this.labCabeceraAltaPaciente.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.labCabeceraAltaPaciente.Location = new System.Drawing.Point(0, 0);
             this.labCabeceraAltaPaciente.Name = "labCabeceraAltaPaciente";
-            this.labCabeceraAltaPaciente.Size = new System.Drawing.Size(592, 47);
+            this.labCabeceraAltaPaciente.Size = new System.Drawing.Size(582, 47);
             this.labCabeceraAltaPaciente.TabIndex = 2;
             this.labCabeceraAltaPaciente.Text = "Va a admitir un paciente";
             this.labCabeceraAltaPaciente.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -76,7 +76,7 @@
             // 
             // butAceptar
             // 
-            this.butAceptar.Location = new System.Drawing.Point(97, 262);
+            this.butAceptar.Location = new System.Drawing.Point(104, 253);
             this.butAceptar.Name = "butAceptar";
             this.butAceptar.Size = new System.Drawing.Size(158, 38);
             this.butAceptar.TabIndex = 7;
@@ -86,7 +86,7 @@
             // 
             // butCancelar
             // 
-            this.butCancelar.Location = new System.Drawing.Point(315, 262);
+            this.butCancelar.Location = new System.Drawing.Point(318, 253);
             this.butCancelar.Name = "butCancelar";
             this.butCancelar.Size = new System.Drawing.Size(156, 38);
             this.butCancelar.TabIndex = 8;
@@ -107,7 +107,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.ClientSize = new System.Drawing.Size(592, 324);
+            this.ClientSize = new System.Drawing.Size(582, 303);
             this.Controls.Add(this.cmbMedicos);
             this.Controls.Add(this.butCancelar);
             this.Controls.Add(this.butAceptar);

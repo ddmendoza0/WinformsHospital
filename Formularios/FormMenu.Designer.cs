@@ -110,6 +110,7 @@
             this.butBajaPaciente.TabIndex = 7;
             this.butBajaPaciente.Text = "Dar el alta a un paciente";
             this.butBajaPaciente.UseVisualStyleBackColor = true;
+            this.butBajaPaciente.Click += new System.EventHandler(this.butBajaPaciente_Click);
             // 
             // butLstPersonas
             // 

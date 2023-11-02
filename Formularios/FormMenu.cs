@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -13,10 +14,16 @@ namespace WinformsHospital
 {
     public partial class FormMenu : Form
     {
+        //Iniciamos el hospital
         public Hospital hospital = new Hospital();
         
         public FormMenu()
         {
+            //Añadimos unos medicos para comprobacion de datos
+            hospital.Medicos.Add(new Medico(100, "Quique Chatarras", "Cardiologia"));
+            hospital.Medicos.Add(new Medico(101, "El que no debe ser nombrado", "Neurologia"));
+            hospital.Medicos.Add(new Medico(102, "Frodo Bolson", "Generalista"));
+
             InitializeComponent();
         }
 
@@ -36,6 +43,12 @@ namespace WinformsHospital
         {
             FormLstMedico nuevoFormLstMedico = new FormLstMedico(this);
             nuevoFormLstMedico.Show();
+        }
+
+        private void butBajaPaciente_Click(object sender, EventArgs e)
+        {
+            FormDarAlta nuevoFormDarAlta = new FormDarAlta(this);
+            nuevoFormDarAlta.Show();
         }
     }
 }

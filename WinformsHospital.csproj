@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Formularios\FormDarAlta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FormDarAlta.Designer.cs">
+      <DependentUpon>FormDarAlta.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\FormLstMedico.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,6 +82,9 @@
     <Compile Include="Modelos\Persona.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Formularios\FormDarAlta.resx">
+      <DependentUpon>FormDarAlta.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\FormLstMedico.resx">
       <DependentUpon>FormLstMedico.cs</DependentUpon>
     </EmbeddedResource>
