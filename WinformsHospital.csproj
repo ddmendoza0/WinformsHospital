@@ -70,11 +70,11 @@
     <Compile Include="Formularios\FormAltaMedico.Designer.cs">
       <DependentUpon>FormAltaMedico.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\FormAltaPaciente.cs">
+    <Compile Include="Formularios\FormAdmitirPaciente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\FormAltaPaciente.Designer.cs">
-      <DependentUpon>FormAltaPaciente.cs</DependentUpon>
+    <Compile Include="Formularios\FormAdmitirPaciente.Designer.cs">
+      <DependentUpon>FormAdmitirPaciente.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\FormMenu.cs">
       <SubType>Form</SubType>
@@ -100,8 +100,8 @@
     <EmbeddedResource Include="Formularios\FormAltaMedico.resx">
       <DependentUpon>FormAltaMedico.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\FormAltaPaciente.resx">
-      <DependentUpon>FormAltaPaciente.cs</DependentUpon>
+    <EmbeddedResource Include="Formularios\FormAdmitirPaciente.resx">
+      <DependentUpon>FormAdmitirPaciente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\FormMenu.resx">
       <DependentUpon>FormMenu.cs</DependentUpon>

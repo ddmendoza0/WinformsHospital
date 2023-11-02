@@ -23,9 +23,15 @@ namespace WinformsHospital
 
         private void butAceptar_Click(object sender, EventArgs e)
         {
-            EliminarPaciente();//Lamamos para que elimine al paciente de la lista
-            MostrarListaPacientes();//Asi nos actualiza la lista
-            MessageBox.Show("Operación realizada con exito");
+            if (lstPacientes.SelectedItem != null)//Condiciones de realizacion del boton
+            {
+                EliminarPaciente();//Lamamos para que elimine al paciente de la lista
+                MostrarListaPacientes();//Asi nos actualiza la lista
+                MessageBox.Show("Operación realizada con exito");
+            }
+            else
+                MessageBox.Show("Debe seleccionar un paciente");
+
         }
 
         private void butCancelar_Click(object sender, EventArgs e)

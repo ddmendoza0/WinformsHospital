@@ -10,11 +10,11 @@ using System.Windows.Forms;
 
 namespace WinformsHospital.Formularios
 {
-    public partial class FormAltaPaciente : Form
+    public partial class FormAdmitirPaciente : Form
     {
         FormMenu infoForm;
 
-        public FormAltaPaciente(FormMenu menuPrincipal)
+        public FormAdmitirPaciente(FormMenu menuPrincipal)
         {
             infoForm = menuPrincipal;
             InitializeComponent();
@@ -23,9 +23,19 @@ namespace WinformsHospital.Formularios
 
         private void butAceptar_Click(object sender, EventArgs e)
         {
-            AnadirPaciente();//Llamamos a la funcion para añadir el paciente
-            MostrarListaMedicos();
-            MessageBox.Show("Operacion realizada con exito");
+            //Se deben seleccionar los campos para admitir un paciente
+            if (cmbMedicos.SelectedItem != null && txtNombre.Text != "")
+            {
+                AnadirPaciente();//Llamamos a la funcion para añadir el paciente
+                MessageBox.Show("Operación realizada con exito");
+
+                //Volvemos al estado por defecto
+                cmbMedicos.SelectedItem = null;
+                txtNombre.Text = "";
+            }
+            else
+                MessageBox.Show("Debe rellenar los campos para admitir un paciente");
+            
         }
 
         private void butCancelar_Click(object sender, EventArgs e)

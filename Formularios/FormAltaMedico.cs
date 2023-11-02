@@ -28,8 +28,18 @@ namespace WinformsHospital.Formularios
 
         private void butAceptar_Click(object sender, EventArgs e)
         {
-            AdmitirMedico();
-            MessageBox.Show("Operación realizada con exito");
+            //Se deben seleccionar los campos para dar de alta un medico
+            if (cmbEspecialidad.SelectedItem != null && txtNomMedic.Text != "")
+            {
+                AdmitirMedico();
+                MessageBox.Show("Operación realizada con exito");
+
+                //Volvemos a empezar
+                cmbEspecialidad.SelectedValue = null;
+                txtNomMedic.Text = "";
+            }
+            else
+                MessageBox.Show("Debe rellenar los campos para admitir un medico");
         }
 
         private void AdmitirMedico()

@@ -1,6 +1,6 @@
 ﻿namespace WinformsHospital.Formularios
 {
-    partial class FormAltaPaciente
+    partial class FormAdmitirPaciente
     {
         /// <summary>
         /// Required designer variable.

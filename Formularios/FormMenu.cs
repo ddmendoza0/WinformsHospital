@@ -35,7 +35,7 @@ namespace WinformsHospital
 
         private void butAltaPaciente_Click(object sender, EventArgs e)
         {
-            FormAltaPaciente nuevoFormAltaPaciente = new FormAltaPaciente(this);
+            FormAdmitirPaciente nuevoFormAltaPaciente = new FormAdmitirPaciente(this);
             nuevoFormAltaPaciente.Show();
         }
 

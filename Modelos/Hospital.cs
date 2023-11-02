@@ -25,22 +25,5 @@ namespace WinformsHospital
         }
 
         public Hospital() { }
-
-        public void NumberPersonas()
-        {
-            Console.Clear();
-
-            //Sumamos 1 al cotador por cada medico y paciente
-            int cont = 0;
-            foreach (Medico medic in Medicos)
-            {
-                foreach (Paciente paciente in medic.Pacientes)
-                    cont++;
-                cont++;
-            }
-            Console.WriteLine($"El total de personas en el hospital es de {cont}");
-
-            Console.ReadKey();
-        }
     }
 }
