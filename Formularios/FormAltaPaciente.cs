@@ -24,7 +24,8 @@ namespace WinformsHospital.Formularios
         private void butAceptar_Click(object sender, EventArgs e)
         {
             AnadirPaciente();//Llamamos a la funcion para añadir el paciente
-            this.Close();
+            MostrarListaMedicos();
+            MessageBox.Show("Operacion realizada con exito");
         }
 
         private void butCancelar_Click(object sender, EventArgs e)

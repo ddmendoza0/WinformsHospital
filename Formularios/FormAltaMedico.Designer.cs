@@ -40,11 +40,11 @@
             // labNomMed
             // 
             this.labNomMed.AutoSize = true;
-            this.labNomMed.Location = new System.Drawing.Point(12, 47);
+            this.labNomMed.Location = new System.Drawing.Point(12, 58);
             this.labNomMed.Name = "labNomMed";
-            this.labNomMed.Size = new System.Drawing.Size(128, 16);
+            this.labNomMed.Size = new System.Drawing.Size(125, 16);
             this.labNomMed.TabIndex = 0;
-            this.labNomMed.Text = "Introduce el nombre:";
+            this.labNomMed.Text = "Introduce el nombre";
             // 
             // labCabeceraAltaMed
             // 
@@ -61,7 +61,7 @@
             // 
             // txtNomMedic
             // 
-            this.txtNomMedic.Location = new System.Drawing.Point(15, 67);
+            this.txtNomMedic.Location = new System.Drawing.Point(15, 78);
             this.txtNomMedic.Name = "txtNomMedic";
             this.txtNomMedic.Size = new System.Drawing.Size(225, 22);
             this.txtNomMedic.TabIndex = 2;
@@ -69,11 +69,11 @@
             // labEspecialidad
             // 
             this.labEspecialidad.AutoSize = true;
-            this.labEspecialidad.Location = new System.Drawing.Point(15, 116);
+            this.labEspecialidad.Location = new System.Drawing.Point(15, 127);
             this.labEspecialidad.Name = "labEspecialidad";
-            this.labEspecialidad.Size = new System.Drawing.Size(174, 16);
+            this.labEspecialidad.Size = new System.Drawing.Size(171, 16);
             this.labEspecialidad.TabIndex = 3;
-            this.labEspecialidad.Text = "Selecciona la especialidad:";
+            this.labEspecialidad.Text = "Selecciona la especialidad";
             // 
             // cmbEspecialidad
             // 
@@ -84,7 +84,7 @@
             "Neurologia",
             "Reflexologia",
             "Astrologia"});
-            this.cmbEspecialidad.Location = new System.Drawing.Point(18, 136);
+            this.cmbEspecialidad.Location = new System.Drawing.Point(18, 147);
             this.cmbEspecialidad.Name = "cmbEspecialidad";
             this.cmbEspecialidad.Size = new System.Drawing.Size(222, 24);
             this.cmbEspecialidad.TabIndex = 4;

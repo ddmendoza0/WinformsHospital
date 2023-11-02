@@ -28,13 +28,20 @@ namespace WinformsHospital.Formularios
 
         private void butAceptar_Click(object sender, EventArgs e)
         {
-            int id = infoForm.hospital.Medicos.Count()+1;
+            AdmitirMedico();
+            MessageBox.Show("Operación realizada con exito");
+        }
+
+        private void AdmitirMedico()
+        {
+            int id = 1;
             string nombre = txtNomMedic.Text;
             string especialidad = cmbEspecialidad.SelectedItem.ToString();
 
-            infoForm.hospital.Medicos.Add(new Medico(id,nombre,especialidad));
+            foreach (Medico med in infoForm.hospital.Medicos)
+                    id = med.Id + 1; //Con el ultimo medico seteamos el id
 
-            this.Close();
+            infoForm.hospital.Medicos.Add(new Medico(id, nombre, especialidad));
         }
     }
 }
