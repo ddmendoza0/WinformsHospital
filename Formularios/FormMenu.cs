@@ -55,5 +55,11 @@ namespace WinformsHospital
         {
             this.Close();
         }
+
+        private void butLstPersonas_Click(object sender, EventArgs e)
+        {
+            FormTotalPersonas nuevoFormTotal = new FormTotalPersonas(this);
+            nuevoFormTotal.Show();
+        }
     }
 }

@@ -91,7 +91,7 @@
             this.butCancelar.Name = "butCancelar";
             this.butCancelar.Size = new System.Drawing.Size(156, 38);
             this.butCancelar.TabIndex = 8;
-            this.butCancelar.Text = "Cancelar";
+            this.butCancelar.Text = "Cerrar";
             this.butCancelar.UseVisualStyleBackColor = true;
             this.butCancelar.Click += new System.EventHandler(this.butCancelar_Click);
             // 

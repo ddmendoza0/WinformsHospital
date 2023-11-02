@@ -126,6 +126,7 @@
             this.butLstPersonas.TabIndex = 8;
             this.butLstPersonas.Text = "Personas en el hospital";
             this.butLstPersonas.UseVisualStyleBackColor = false;
+            this.butLstPersonas.Click += new System.EventHandler(this.butLstPersonas_Click);
             // 
             // butCerrar
             // 
