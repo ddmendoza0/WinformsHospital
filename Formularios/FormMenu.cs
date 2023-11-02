@@ -17,7 +17,6 @@ namespace WinformsHospital
         
         public FormMenu()
         {
-            
             InitializeComponent();
         }
 
@@ -31,6 +30,12 @@ namespace WinformsHospital
         {
             FormAltaPaciente nuevoFormAltaPaciente = new FormAltaPaciente(this);
             nuevoFormAltaPaciente.Show();
+        }
+
+        private void butListaMedic_Click(object sender, EventArgs e)
+        {
+            FormLstMedico nuevoFormLstMedico = new FormLstMedico(this);
+            nuevoFormLstMedico.Show();
         }
     }
 }

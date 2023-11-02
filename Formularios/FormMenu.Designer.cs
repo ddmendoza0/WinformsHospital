@@ -34,7 +34,6 @@
             this.butAltaPaciente = new System.Windows.Forms.Button();
             this.butListaMedic = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.butListaPacient = new System.Windows.Forms.Button();
             this.butBajaPaciente = new System.Windows.Forms.Button();
             this.butLstPersonas = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -91,6 +90,7 @@
             this.butListaMedic.TabIndex = 4;
             this.butListaMedic.Text = "Medicos";
             this.butListaMedic.UseVisualStyleBackColor = true;
+            this.butListaMedic.Click += new System.EventHandler(this.butListaMedic_Click);
             // 
             // label1
             // 
@@ -101,15 +101,6 @@
             this.label1.Size = new System.Drawing.Size(182, 20);
             this.label1.TabIndex = 5;
             this.label1.Text = "Listados disponibles";
-            // 
-            // butListaPacient
-            // 
-            this.butListaPacient.Location = new System.Drawing.Point(405, 184);
-            this.butListaPacient.Name = "butListaPacient";
-            this.butListaPacient.Size = new System.Drawing.Size(191, 23);
-            this.butListaPacient.TabIndex = 6;
-            this.butListaPacient.Text = "Pacientes";
-            this.butListaPacient.UseVisualStyleBackColor = true;
             // 
             // butBajaPaciente
             // 
@@ -122,7 +113,7 @@
             // 
             // butLstPersonas
             // 
-            this.butLstPersonas.Location = new System.Drawing.Point(405, 233);
+            this.butLstPersonas.Location = new System.Drawing.Point(405, 184);
             this.butLstPersonas.Name = "butLstPersonas";
             this.butLstPersonas.Size = new System.Drawing.Size(191, 23);
             this.butLstPersonas.TabIndex = 8;
@@ -137,7 +128,6 @@
             this.ClientSize = new System.Drawing.Size(653, 329);
             this.Controls.Add(this.butLstPersonas);
             this.Controls.Add(this.butBajaPaciente);
-            this.Controls.Add(this.butListaPacient);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.butListaMedic);
             this.Controls.Add(this.butAltaPaciente);
@@ -159,7 +149,6 @@
         private System.Windows.Forms.Button butAltaPaciente;
         private System.Windows.Forms.Button butListaMedic;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button butListaPacient;
         private System.Windows.Forms.Button butBajaPaciente;
         private System.Windows.Forms.Button butLstPersonas;
     }
